@@ -29,6 +29,7 @@ body {
 		url(headcount-img.jpg);
 	background-position: center;
 	background-size: cover;
+	background-attachment: fixed;
 	text-align: center;
 }
 
