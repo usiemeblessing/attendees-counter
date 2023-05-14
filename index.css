@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100vh;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-bottom: 8px solid #3f4f18;
+
+    /* background-image: url("headcount-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+}
+
+.overlay{
+    width: 100%;
+    background-image: linear-gradient(
+			rgba(0, 0, 0, 0.87),
+			rgba(0, 0, 0, 0.479),
+			rgba(0, 0, 0, 0.87)
+		),
+		url(headcount-img.jpg);
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+    padding-bottom: 10px;
+}
+
+.container{
+    max-width: 80%;
+    margin: auto;
+     padding-top: 10px;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 50px;
+}
+
+button{
+    display: block;
+    margin: 10px auto;
+    padding: 10px 0;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#increment-button{
+    background-color:red;
+}
+
+#save-button{
+    background-color:green;
+}
+
+p{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
